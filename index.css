@@ -2,6 +2,18 @@ body {
     margin: 0;
 }
 
+a img {
+    width: 2%;
+    height: 2%;
+}
+
+div {
+    margin-left: 25%;
+    padding: 1px 16px;
+    font-family: Microsoft JhengHei;
+    /* height: 1000px; */
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,11 +53,33 @@ li a.active {
 li a:hover:not(.active) {
     background-color: rgb(179, 157, 157);
     color: white;
-    border-color: red;
-    font-size: 18px;
+    /* border-color: red;
+    font-size: 18px; */
     font-weight: 250;
 }
 
-li a:hover {
+
+/* li a:hover {
     width: 200px
+} */
+
+.project1_ss img {
+    width: 350px;
+    height: 400px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    li {
+        display: none;
+    }
+    img {
+        display: none;
+    }
+    ul {
+        width: 0%;
+    }
+    div {
+        margin-left: 10%;
+    }
 }
