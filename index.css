@@ -73,9 +73,6 @@ li a:hover:not(.active) {
     li {
         display: none;
     }
-    img {
-        display: none;
-    }
     ul {
         width: 0%;
     }
